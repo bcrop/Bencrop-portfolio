@@ -38,3 +38,19 @@
 .divider{ /* Used to space between accordian panels */
 	padding-top: 5px;
 }
+
+img.width80 {
+  width: auto !important; /*override the width below*/
+  width: 100%;
+  max-width: 80%;
+  float: center;
+  clear: both;
+}
+
+img.width100 {
+  width: auto !important; /*override the width below*/
+  width: 100%;
+  max-width: 100%;
+  float: center;
+  clear: both;
+}
