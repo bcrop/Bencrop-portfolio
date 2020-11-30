@@ -190,7 +190,7 @@
 
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width : 480px ){
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -215,6 +215,8 @@
 		}
 
 	}
+
+	
 
 /* Grid */
 
@@ -1334,7 +1336,7 @@
 
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width : 480px ){
 
 		.row > * {
 			padding: 0 0 0 1.25em;
@@ -1559,10 +1561,10 @@
 		-ms-overflow-style: scrollbar;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width : 480px ){
 
 		html, body {
-			min-width: 320px;
+			min-width: 300px;
 		}
 
 	}
@@ -1628,7 +1630,7 @@
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width : 480px ){
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -1679,7 +1681,7 @@
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width : 480px ){
 
 			h2 {
 				font-size: 1.5em;
@@ -1699,7 +1701,7 @@
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width : 480px ){
 
 			h3 {
 				font-size: 1.25em;
@@ -1927,7 +1929,7 @@
 			opacity: 0.25;
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width : 480px ){
 
 			input[type="submit"],
 			input[type="reset"],
@@ -2122,6 +2124,34 @@
 				}
 
 		}
+		@media screen and (max-width : 480px ){
+
+			.flex.flex-2 .col, .flex.flex-3 .col, .flex.flex-4 .col {
+				width: 100%;
+			}
+
+			.flex.flex-tabs {
+				-moz-flex-wrap: wrap;
+				-webkit-flex-wrap: wrap;
+				-ms-flex-wrap: wrap;
+				flex-wrap: wrap;
+			}
+
+				.flex.flex-tabs ul {
+					width: 100%;
+				}
+
+				.flex.flex-tabs .tabs {
+					width: 100%;
+				}
+
+				.flex.flex-tabs .flex-3 .col {
+					width: 100%;
+				}
+
+		}
+
+
 
 /* Form */
 
@@ -2576,7 +2606,7 @@
 						padding: 0 0 0 0.5em;
 					}
 
-			@media screen and (max-width: 480px) {
+			@media screen and (max-width : 480px ){
 
 				ul.actions {
 					margin: 0 0 2em 0;
@@ -3489,10 +3519,10 @@
 
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width : 480px ){
 
 		#header {
-			min-width: 320px;
+			min-width: 300px;
 		}
 
 	}
@@ -3752,7 +3782,7 @@
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width : 480px ){
 
 			#banner p {
 				font-size: 1em;
@@ -3820,4 +3850,3 @@
 			}
 
 		}
-
