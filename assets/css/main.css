@@ -190,7 +190,7 @@
 
 	}
 
-	@media screen and (max-width : 480px ){
+	@media screen and (max-width : 445px ){
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -1336,7 +1336,7 @@
 
 	}
 
-	@media screen and (max-width : 480px ){
+	@media screen and (max-width : 445px ){
 
 		.row > * {
 			padding: 0 0 0 1.25em;
@@ -1561,7 +1561,7 @@
 		-ms-overflow-style: scrollbar;
 	}
 
-	@media screen and (max-width : 480px ){
+	@media screen and (max-width : 445px ){
 
 		html, body {
 			min-width: 300px;
@@ -1630,7 +1630,7 @@
 
 		}
 
-		@media screen and (max-width : 480px ){
+		@media screen and (max-width : 445px ){
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -1681,7 +1681,7 @@
 
 		}
 
-		@media screen and (max-width : 480px ){
+		@media screen and (max-width : 445px ){
 
 			h2 {
 				font-size: 1.5em;
@@ -1701,7 +1701,7 @@
 
 		}
 
-		@media screen and (max-width : 480px ){
+		@media screen and (max-width : 445px ){
 
 			h3 {
 				font-size: 1.25em;
@@ -1929,7 +1929,7 @@
 			opacity: 0.25;
 		}
 
-		@media screen and (max-width : 480px ){
+		@media screen and (max-width : 445px ){
 
 			input[type="submit"],
 			input[type="reset"],
@@ -2124,7 +2124,7 @@
 				}
 
 		}
-		@media screen and (max-width : 480px ){
+		@media screen and (max-width : 445px ){
 
 			.flex.flex-2 .col, .flex.flex-3 .col, .flex.flex-4 .col {
 				width: 100%;
@@ -2606,7 +2606,7 @@
 						padding: 0 0 0 0.5em;
 					}
 
-			@media screen and (max-width : 480px ){
+			@media screen and (max-width : 445px ){
 
 				ul.actions {
 					margin: 0 0 2em 0;
@@ -3519,7 +3519,7 @@
 
 	}
 
-	@media screen and (max-width : 480px ){
+	@media screen and (max-width : 445px ){
 
 		#header {
 			min-width: 300px;
@@ -3782,7 +3782,7 @@
 
 		}
 
-		@media screen and (max-width : 480px ){
+		@media screen and (max-width : 445px ){
 
 			#banner p {
 				font-size: 1em;
