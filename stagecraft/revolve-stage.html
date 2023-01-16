@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<style>
+
+    .stage {
+      position: absolute;
+      width: 500px;
+      height: 313px;
+      background-color: white;
+      border: 1px solid black;
+      border-radius: 0px;
+		background-image: url('https://www.bencrop.com/stagecraft/harvey_web.png');
+	  z-index: 1;
+    }
+
+
+.circle {
+      position: absolute;
+      top: 21px;
+      left: 119px;
+      width: 261px;
+      height: 261px;
+      border-radius: 50%;
+      background-image: url('https://www.bencrop.com/stagecraft/harvey_web.png');
+      
+
+	 background-position: -120px;
+	background-position: -121px -22px;
+      border: 1px solid black;
+      box-sizing: border-box;
+      transform: rotate(0deg);
+      transition: transform 5s;
+	z-index: 3;
+    }
+
+    .button {
+      position: relative;
+      margin: 5px;
+      width: 75px;
+      height: 30px;
+      background-color: green;
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+		z-index: 4;
+    }
+
+	
+	</style>
+</head>
+
+<body>
+	<h2>Press the "Go" button below to rotate the stage</h2>
+  <div class="stage">
+
+    <div class="circle" id="circle"></div>
+
+	</div>
+	
+  <button class="button" onclick="rotateCircle()">Go</button>
+
+</body>
+	
+	
+	
+	<script>
+          function rotateCircle() {
+      var circle = document.getElementById("circle");
+      var currentRotation = circle.style.transform.replace(/[^\d.]/g, '');
+      if(currentRotation == "") {
+        currentRotation = 0;
+      }
+      circle.style.transform = "rotate(" + (parseInt(currentRotation) + 180) + "deg)";
+}
+	</script>
+	
+</html>
