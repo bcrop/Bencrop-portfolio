@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+	<style>
+.container {
+  position: relative;
+}
+
+.stage {
+  width: 500px;
+  height: 215px;
+  background-image: url('https://www.bencrop.com/stagecraft/orient-express-stage.png');
+  position: absolute;
+  z-index: 2;
+}
+
+.train {
+  width: 500px;
+  height: 215px;
+  background-image: url('https://www.bencrop.com/stagecraft/orient-express-train.png');
+  position: absolute;
+	left: -176px;
+	transition: 4s;
+  z-index: 1;
+}
+		 .button {
+      position: relative;
+      margin: 10px;
+      height: 30px;
+      background-color: green;
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+		z-index: 3;
+    }
+</style>
+	
+</head>
+
+<body>
+	<h2>Use the bottons to move the train acorss the stage</h2>
+	<div class="container">
+  <div class="stage">
+  </div>
+  <div class="train">
+  </div>
+
+  <button class="button move">Change Scene</button>
+</div>
+
+
+	
+</body>
+	<script>
+const train = document.querySelector('.train');
+const toggleButton = document.querySelector('.move');
+
+let left = false;
+
+toggleButton.addEventListener('click', function() {
+  if (left) {
+    train.style.left = '-176px';
+  } else {
+    train.style.left = '0px';
+  }
+  left = !left;
+});
+</script>
+</html>
