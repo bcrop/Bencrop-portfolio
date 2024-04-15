@@ -9,47 +9,82 @@
 
 <url>
   <loc>https://www.bencrop.com/</loc>
-  <lastmod>2020-06-08T19:36:47+00:00</lastmod>
+  <lastmod>2024-04-15T17:34:41+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.bencrop.com/</loc>
+  <lastmod>2024-04-15T17:34:41+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://bencrop.com/</loc>
+  <lastmod>2024-04-15T17:34:41+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://bencrop.com/</loc>
+  <lastmod>2024-04-15T17:34:41+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.bencrop.com/photography</loc>
-  <lastmod>2020-06-08T19:36:47+00:00</lastmod>
+  <lastmod>2024-04-15T17:34:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.bencrop.com/td</loc>
-  <lastmod>2020-06-08T19:36:47+00:00</lastmod>
+  <lastmod>2024-04-15T17:34:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.bencrop.com/linenotes/</loc>
-  <lastmod>2020-06-08T19:36:47+00:00</lastmod>
+  <lastmod>2024-04-15T17:34:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.bencrop.com/stagecraft/</loc>
+  <lastmod>2024-04-15T17:34:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.bencrop.com/design</loc>
-  <lastmod>2020-06-08T19:36:47+00:00</lastmod>
+  <lastmod>2024-04-15T17:34:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.bencrop.com/about</loc>
-  <lastmod>2020-06-08T19:36:47+00:00</lastmod>
+  <lastmod>2024-04-15T17:34:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.bencrop.com/contact</loc>
-  <lastmod>2020-06-08T19:36:47+00:00</lastmod>
+  <lastmod>2024-04-15T17:34:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://www.bencrop.com/images/td/drafting/revolve.pdf</loc>
+  <lastmod>2024-04-15T17:34:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.bencrop.com/images/td/drafting/automation.pdf</loc>
+  <lastmod>2024-04-15T17:34:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.bencrop.com/images/td/drafting/handrails.pdf</loc>
+  <lastmod>2024-04-15T17:34:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://www.bencrop.com/linenotes/help</loc>
-  <lastmod>2020-06-08T19:36:47+00:00</lastmod>
+  <lastmod>2024-04-15T17:34:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.bencrop.com/images/resume/td-resume.pdf</loc>
-  <lastmod>2020-06-08T19:36:47+00:00</lastmod>
+  <lastmod>2024-04-15T17:34:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
